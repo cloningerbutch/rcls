@@ -1,0 +1,25 @@
+{
+  "name": "rcls",
+  "version": "1.0.0",
+  "description": "show resource file hierarchy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rcls": "./bin/rcls"
+  },
+  "keywords": [
+    "resource",
+    "rc",
+    "list"
+  ],
+  "author": "Butch Cloninger",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "json-colorizer": "^2.2.1",
+    "rc": "^1.2.8",
+    "yargs": "^15.1.0"
+  }
+}
