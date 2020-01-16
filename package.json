@@ -9,6 +9,13 @@
   "bin": {
     "rcls": "./bin/rcls"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloningerbutch/rcls.git"
+  },
   "keywords": [
     "resource",
     "rc",
