@@ -42,6 +42,7 @@ delete cfg.config;
 delete cfg._;
 
 console.log(chalk.green('rc files found, in order of precedence:'))
+files.reverse();
 files.forEach(file => {
     console.log(`  ${file}`)
 })
